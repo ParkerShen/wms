@@ -1,0 +1,410 @@
+2026-05-07 16:15:21.351 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [78ae9240acc9] GET /api/system/menu/user-tree 200 335ms
+2026-05-07 16:15:21.351 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [8053e8d529fb] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 335ms
+2026-05-07 16:15:21.352 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8053e8d529fb] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (335ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:21.352 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [78ae9240acc9] GET /api/system/menu/user-tree → 200 (335ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:23.892 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [a5f633ed0831] GET /api/system/menu/user-tree 200 18ms
+2026-05-07 16:15:23.892 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a5f633ed0831] GET /api/system/menu/user-tree → 200 (18ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:23.895 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [b2f18c54e3f3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 21ms
+2026-05-07 16:15:23.896 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b2f18c54e3f3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (21ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:25.698 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [7841447dfa22] GET /api/system/role/page?page=1&pageSize=999 200 16ms
+2026-05-07 16:15:25.698 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [7841447dfa22] GET /api/system/role/page?page=1&pageSize=999 → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:37.400 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [739c7c1536e5] POST /api/system/user 200 237ms
+2026-05-07 16:15:37.401 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [739c7c1536e5] POST /api/system/user → 200 (237ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:37.446 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [af39a55a90ee] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 28ms
+2026-05-07 16:15:37.446 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [af39a55a90ee] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (28ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:45.004 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [f0dfa0f6b0e6] GET /api/system/role/page?page=1&pageSize=999 200 9ms
+2026-05-07 16:15:45.004 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f0dfa0f6b0e6] GET /api/system/role/page?page=1&pageSize=999 → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:48.954 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [d9e95cdd9c6c] PUT /api/system/user/7/role 200 29ms
+2026-05-07 16:15:48.954 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d9e95cdd9c6c] PUT /api/system/user/7/role → 200 (29ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:15:48.982 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [a6952d1a0441] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 15ms
+2026-05-07 16:15:48.982 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a6952d1a0441] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (15ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:16:16.538 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [f9dd9d843adf] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 16:16:16.539 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f9dd9d843adf] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:16:17.835 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [1be78fe3dd34] GET /api/system/menu/tree 200 9ms
+2026-05-07 16:16:17.835 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [1be78fe3dd34] GET /api/system/menu/tree → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:16:17.876 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [275f9df99b61] GET /api/system/menu/tree 200 10ms
+2026-05-07 16:16:17.876 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [275f9df99b61] GET /api/system/menu/tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:16:19.056 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [5c5066810b13] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 10ms
+2026-05-07 16:16:19.057 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [5c5066810b13] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:16:19.541 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [8b390cc76ee4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 16ms
+2026-05-07 16:16:19.541 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8b390cc76ee4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:18:59.089 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [936471420df7] GET /api/system/menu/user-tree 200 355ms
+2026-05-07 16:18:59.089 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [1c3a72f144af] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 355ms
+2026-05-07 16:18:59.089 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [936471420df7] GET /api/system/menu/user-tree → 200 (355ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:18:59.089 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [1c3a72f144af] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (355ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:19:09.683 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [b6f8dec62f48] GET /api/system/role/page?page=1&pageSize=999 200 15ms
+2026-05-07 16:19:09.683 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b6f8dec62f48] GET /api/system/role/page?page=1&pageSize=999 → 200 (15ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:22:45.295 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [53f6716fe842] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 20ms
+2026-05-07 16:22:45.295 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [53f6716fe842] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (20ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:23:33.984 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [404501601cff] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 20ms
+2026-05-07 16:23:33.984 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [404501601cff] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (20ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:23:45.117 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [9a0b92dcecbd] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 17ms
+2026-05-07 16:23:45.117 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9a0b92dcecbd] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (17ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:15.408 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [e1b45574a44d] GET /api/system/menu/user-tree 200 343ms
+2026-05-07 16:24:15.408 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [1052352d01a7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 343ms
+2026-05-07 16:24:15.409 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [e1b45574a44d] GET /api/system/menu/user-tree → 200 (343ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:15.409 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [1052352d01a7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (343ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:19.970 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [582a6c5593cc] GET /api/system/role/page?page=1&pageSize=999 200 16ms
+2026-05-07 16:24:19.970 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [582a6c5593cc] GET /api/system/role/page?page=1&pageSize=999 → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:25.455 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [47e1b0795c1d] GET /api/system/role/page?page=1&pageSize=999 200 10ms
+2026-05-07 16:24:25.456 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [47e1b0795c1d] GET /api/system/role/page?page=1&pageSize=999 → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:28.326 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [b217565ba7ad] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 11ms
+2026-05-07 16:24:28.326 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b217565ba7ad] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:30.747 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [c73b350b6455] GET /api/system/menu/tree 200 7ms
+2026-05-07 16:24:30.747 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c73b350b6455] GET /api/system/menu/tree → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:30.766 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [c4d56d19cb46] GET /api/system/role/3 200 12ms
+2026-05-07 16:24:30.766 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c4d56d19cb46] GET /api/system/role/3 → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:33.059 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [370eda908683] GET /api/system/menu/tree 200 8ms
+2026-05-07 16:24:33.059 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [370eda908683] GET /api/system/menu/tree → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:33.076 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [361f4fd385b6] GET /api/system/role/1 200 8ms
+2026-05-07 16:24:33.076 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [361f4fd385b6] GET /api/system/role/1 → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:37.012 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [56caa58f85c6] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 21ms
+2026-05-07 16:24:37.012 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [56caa58f85c6] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (21ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:24:50.533 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [3bc33cdc752c] GET /api/system/role/page?page=1&pageSize=999 200 9ms
+2026-05-07 16:24:50.533 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3bc33cdc752c] GET /api/system/role/page?page=1&pageSize=999 → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:25:08.187 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [bf615466b3c7] POST /api/system/user 200 238ms
+2026-05-07 16:25:08.187 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [bf615466b3c7] POST /api/system/user → 200 (238ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:25:08.233 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [73197a5207cb] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 28ms
+2026-05-07 16:25:08.233 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [73197a5207cb] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (28ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:25:35.436 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [78b0c772e16f] GET /api/system/role/page?page=1&pageSize=999 200 9ms
+2026-05-07 16:25:35.436 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [78b0c772e16f] GET /api/system/role/page?page=1&pageSize=999 → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:25:38.176 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [c31317f9258e] PUT /api/system/user 200 39ms
+2026-05-07 16:25:38.176 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c31317f9258e] PUT /api/system/user → 200 (39ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:25:38.212 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [4f019819fe0a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 22ms
+2026-05-07 16:25:38.212 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4f019819fe0a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (22ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:27:58.860 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [50e4025f3d65] GET /api/system/menu/user-tree 200 20ms
+2026-05-07 16:27:58.860 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [50e4025f3d65] GET /api/system/menu/user-tree → 200 (20ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:27:58.863 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [5b2f5a9b0623] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 23ms
+2026-05-07 16:27:58.864 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [5b2f5a9b0623] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (23ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:28:05.247 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [4ed819c323f3] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 16:28:05.248 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4ed819c323f3] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:28:05.255 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [6df77d333d1a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 19ms
+2026-05-07 16:28:05.255 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6df77d333d1a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (19ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:28:40.550 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [030e03fd8516] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 16ms
+2026-05-07 16:28:40.550 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [030e03fd8516] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:18.483 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [d07d6a559173] GET /api/system/menu/user-tree 200 12ms
+2026-05-07 16:29:18.483 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d07d6a559173] GET /api/system/menu/user-tree → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:18.491 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [3c547153aeaf] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 20ms
+2026-05-07 16:29:18.491 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3c547153aeaf] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (20ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:24.966 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [953b04b56d22] DELETE /api/system/user/8 200 34ms
+2026-05-07 16:29:24.966 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [953b04b56d22] DELETE /api/system/user/8 → 200 (34ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:24.990 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [caf1f5b16e8b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 13ms
+2026-05-07 16:29:24.990 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [caf1f5b16e8b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:27.912 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [ccfbcd42e7dd] GET /api/system/role/page?page=1&pageSize=999 200 7ms
+2026-05-07 16:29:27.912 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ccfbcd42e7dd] GET /api/system/role/page?page=1&pageSize=999 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:41.785 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [874b0964e898] POST /api/system/user 200 9ms
+2026-05-07 16:29:41.785 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [874b0964e898] POST /api/system/user → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:42.847 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [5e4a2731ef80] POST /api/system/user 200 8ms
+2026-05-07 16:29:42.847 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [5e4a2731ef80] POST /api/system/user → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:43.262 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [96e687c56a06] POST /api/system/user 200 7ms
+2026-05-07 16:29:43.262 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [96e687c56a06] POST /api/system/user → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:43.431 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [8ba31c24eeb4] POST /api/system/user 200 9ms
+2026-05-07 16:29:43.431 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8ba31c24eeb4] POST /api/system/user → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:43.727 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [d43b5e411a25] POST /api/system/user 200 8ms
+2026-05-07 16:29:43.727 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d43b5e411a25] POST /api/system/user → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:46.998 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [593577c9d71e] POST /api/system/user 200 7ms
+2026-05-07 16:29:46.998 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [593577c9d71e] POST /api/system/user → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:58.251 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [3f202a224c39] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 10ms
+2026-05-07 16:29:58.251 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3f202a224c39] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:29:59.104 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [a514833e6b2b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 16ms
+2026-05-07 16:29:59.104 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a514833e6b2b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:03.029 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [c091efddc802] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 9ms
+2026-05-07 16:31:03.029 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c091efddc802] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:03.610 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [33bbe11f3d81] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 13ms
+2026-05-07 16:31:03.611 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [33bbe11f3d81] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:05.335 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [6f85c5afcf64] GET /api/system/role/page?page=1&pageSize=999 200 8ms
+2026-05-07 16:31:05.335 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6f85c5afcf64] GET /api/system/role/page?page=1&pageSize=999 → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:11.659 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [6e2819113bcc] GET /api/system/role/page?page=1&pageSize=999 200 9ms
+2026-05-07 16:31:11.659 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6e2819113bcc] GET /api/system/role/page?page=1&pageSize=999 → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:18.401 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [35839f81d953] POST /api/system/user 200 88ms
+2026-05-07 16:31:18.401 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [35839f81d953] POST /api/system/user → 200 (88ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:31:18.428 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [013dbb84f33c] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 13ms
+2026-05-07 16:31:18.428 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [013dbb84f33c] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:32:45.845 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [2ced2a80c343] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 8ms
+2026-05-07 16:32:45.845 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [2ced2a80c343] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:32:46.371 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [8a0946c96ee8] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 16:32:46.371 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8a0946c96ee8] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:34:10.272 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [7362eb2317df] GET /api/system/menu/user-tree 200 12ms
+2026-05-07 16:34:10.272 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [582b450bd90d] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 16:34:10.272 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [7362eb2317df] GET /api/system/menu/user-tree → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:34:10.272 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [582b450bd90d] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:38:49.463 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [5d0b1986218e] GET /api/system/menu/user-tree 200 15ms
+2026-05-07 16:38:49.463 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [5d0b1986218e] GET /api/system/menu/user-tree → 200 (15ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:38:51.675 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [beee10df78a3] POST /api/auth/logout 200 1ms
+2026-05-07 16:38:51.675 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [beee10df78a3] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:38:53.118 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [ae5ec747aa98] POST /api/auth/login 200 87ms
+2026-05-07 16:38:53.118 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ae5ec747aa98] POST /api/auth/login → 200 (87ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:38:53.159 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [0727144a9570] GET /api/system/menu/user-tree 200 13ms
+2026-05-07 16:38:53.159 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [0727144a9570] GET /api/system/menu/user-tree → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:38:55.547 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [c7a1a3a79d9f] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 9ms
+2026-05-07 16:38:55.547 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c7a1a3a79d9f] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:01.287 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [4d137bfc45d3] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 8ms
+2026-05-07 16:39:01.287 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4d137bfc45d3] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:02.696 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [d8c8642a324a] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:39:02.696 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d8c8642a324a] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:02.724 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [857bfe354e6d] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:39:02.724 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [857bfe354e6d] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:03.765 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [050a67c655a5] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 16:39:03.765 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [050a67c655a5] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:04.494 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [3e1c00ff0a89] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 11ms
+2026-05-07 16:39:04.494 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3e1c00ff0a89] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:47.041 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [4c1411bd1c7d] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 8ms
+2026-05-07 16:39:47.041 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4c1411bd1c7d] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:51.231 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [d55da5f7fcd4] GET /api/system/menu/tree 200 4ms
+2026-05-07 16:39:51.231 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d55da5f7fcd4] GET /api/system/menu/tree → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:51.242 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [f1653681772a] GET /api/system/role/3 200 5ms
+2026-05-07 16:39:51.242 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f1653681772a] GET /api/system/role/3 → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:53.950 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [5912a6edee13] GET /api/system/menu/tree 200 3ms
+2026-05-07 16:39:53.950 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [5912a6edee13] GET /api/system/menu/tree → 200 (3ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:53.965 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [aee2357f8b25] GET /api/system/role/1 200 5ms
+2026-05-07 16:39:53.965 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [aee2357f8b25] GET /api/system/role/1 → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:55.827 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [d7d3bc869401] GET /api/system/menu/tree 200 10ms
+2026-05-07 16:39:55.828 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d7d3bc869401] GET /api/system/menu/tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:55.843 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [451d8a21b3f3] GET /api/system/role/3 200 7ms
+2026-05-07 16:39:55.843 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [451d8a21b3f3] GET /api/system/role/3 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:57.892 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [c8e28daf95aa] PUT /api/system/role/3/menu 200 17ms
+2026-05-07 16:39:57.892 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c8e28daf95aa] PUT /api/system/role/3/menu → 200 (17ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:59.422 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [d6b1b4d36254] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:39:59.422 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d6b1b4d36254] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:39:59.438 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [169a0d68837a] GET /api/system/role/3 200 5ms
+2026-05-07 16:39:59.438 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [169a0d68837a] GET /api/system/role/3 → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:40:09.545 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [002d25e95686] PUT /api/system/role/3/menu 200 22ms
+2026-05-07 16:40:09.545 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [002d25e95686] PUT /api/system/role/3/menu → 200 (22ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:40:22.451 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [f5e53b18c6dd] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 16:40:22.451 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f5e53b18c6dd] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:40:25.988 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [bfef3a0b3e70] GET /api/system/role/page?page=1&pageSize=999 200 7ms
+2026-05-07 16:40:25.988 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [bfef3a0b3e70] GET /api/system/role/page?page=1&pageSize=999 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:46:03.762 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [93e1ed88e7d3] GET /api/system/menu/tree 200 8ms
+2026-05-07 16:46:03.762 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [93e1ed88e7d3] GET /api/system/menu/tree → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:46:03.794 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [ced74d018207] GET /api/system/menu/tree 200 4ms
+2026-05-07 16:46:03.794 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ced74d018207] GET /api/system/menu/tree → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:46:04.801 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [ff8dfcd4129d] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 8ms
+2026-05-07 16:46:04.802 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ff8dfcd4129d] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:46:05.325 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [32f3dbe73655] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:46:05.326 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [32f3dbe73655] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:46:05.352 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [615aa042b38d] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:46:05.352 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [615aa042b38d] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:50:56.758 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [204e65e56f93] GET /api/system/menu/tree 200 6ms
+2026-05-07 16:50:56.758 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [204e65e56f93] GET /api/system/menu/tree → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:50:56.763 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [a5d028903613] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 16:50:56.763 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a5d028903613] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:50:56.789 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [24865cbeb336] GET /api/system/menu/tree 200 5ms
+2026-05-07 16:50:56.789 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [24865cbeb336] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:51:12.234 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [00f7fee0677e] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 16:51:12.234 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [00f7fee0677e] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:51:14.251 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [4aab1f2e7834] POST /api/auth/logout 200 1ms
+2026-05-07 16:51:14.251 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4aab1f2e7834] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:51:18.760 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [017f993782df] POST /api/auth/login 200 68ms
+2026-05-07 16:51:18.760 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [017f993782df] POST /api/auth/login → 200 (68ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:51:18.799 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [18331a5c33b7] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 16:51:18.800 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [18331a5c33b7] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:52:04.091 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [9ff64ec0bbc0] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 16:52:04.092 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9ff64ec0bbc0] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:52:32.648 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [ae076d98f1d9] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 9ms
+2026-05-07 16:52:32.648 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [be17dabbfa01] GET /api/system/menu/user-tree 200 9ms
+2026-05-07 16:52:32.649 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ae076d98f1d9] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:52:32.649 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [be17dabbfa01] GET /api/system/menu/user-tree → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:53:42.040 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [9b31638722ae] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 9ms
+2026-05-07 16:53:42.040 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [fc1c3cd90a1f] GET /api/system/menu/user-tree 200 9ms
+2026-05-07 16:53:42.040 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9b31638722ae] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:53:42.040 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [fc1c3cd90a1f] GET /api/system/menu/user-tree → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:53:55.803 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [75a723da7ce0] POST /api/auth/logout 200 0ms
+2026-05-07 16:53:55.803 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [75a723da7ce0] POST /api/auth/logout → 200 (0ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:53:56.921 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [80cdbb0f7471] POST /api/auth/login 200 69ms
+2026-05-07 16:53:56.921 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [80cdbb0f7471] POST /api/auth/login → 200 (69ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:53:56.960 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [1830ed29f28d] GET /api/system/menu/user-tree 200 14ms
+2026-05-07 16:53:56.961 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [1830ed29f28d] GET /api/system/menu/user-tree → 200 (14ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:54:56.681 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [ad5afa461fce] GET /api/system/menu/user-tree 200 10ms
+2026-05-07 16:54:56.681 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ad5afa461fce] GET /api/system/menu/user-tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:55:29.424 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [8e307f39c89b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 16:55:29.424 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8e307f39c89b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:57:21.015 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [36410e7dfbe3] GET /api/system/role/page?page=1&pageSize=999 200 7ms
+2026-05-07 16:57:21.015 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [36410e7dfbe3] GET /api/system/role/page?page=1&pageSize=999 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:57:28.237 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [14924b1714b9] POST /api/system/user 200 100ms
+2026-05-07 16:57:28.237 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [14924b1714b9] POST /api/system/user → 200 (100ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:57:28.266 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [70f9b0dd2153] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 16:57:28.266 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [70f9b0dd2153] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:59:29.082 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [f0eaf1e8949b] GET /api/system/menu/user-tree 200 13ms
+2026-05-07 16:59:29.082 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f0eaf1e8949b] GET /api/system/menu/user-tree → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 16:59:29.087 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [7f83d076f715] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 20ms
+2026-05-07 16:59:29.088 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [7f83d076f715] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (20ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:04.816 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [9590493de20a] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 17:00:04.816 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9590493de20a] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:04.819 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [3932ed51f8bc] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 14ms
+2026-05-07 17:00:04.819 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3932ed51f8bc] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (14ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:10.482 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [d5b2984d6e12] POST /api/auth/logout 200 1ms
+2026-05-07 17:00:10.482 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d5b2984d6e12] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:28.009 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [24fe7eaea637] POST /api/auth/login 200 68ms
+2026-05-07 17:00:28.009 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [24fe7eaea637] POST /api/auth/login → 200 (68ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:28.103 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [09f71e6fa803] GET /api/system/menu/user-tree 200 12ms
+2026-05-07 17:00:28.103 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [09f71e6fa803] GET /api/system/menu/user-tree → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:34.154 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [40f7b22dc6cc] POST /api/auth/logout 200 1ms
+2026-05-07 17:00:34.154 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [40f7b22dc6cc] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:50.933 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [70a395f8b1d2] POST /api/auth/login 200 68ms
+2026-05-07 17:00:50.933 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [70a395f8b1d2] POST /api/auth/login → 200 (68ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:00:51.125 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [9a2bad6617b0] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 17:00:51.125 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9a2bad6617b0] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:05.950 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [82799ea67edf] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:01:05.950 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [82799ea67edf] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:08.287 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [bb87870cf26f] GET /api/system/role/page?page=1&pageSize=999 200 7ms
+2026-05-07 17:01:08.287 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [bb87870cf26f] GET /api/system/role/page?page=1&pageSize=999 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:15.618 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [2a971e66bd47] POST /api/system/user 200 82ms
+2026-05-07 17:01:15.619 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [2a971e66bd47] POST /api/system/user → 200 (82ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:15.643 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [366d7534db10] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 11ms
+2026-05-07 17:01:15.643 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [366d7534db10] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:21.466 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [95ba5a383536] POST /api/auth/logout 200 0ms
+2026-05-07 17:01:21.466 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [95ba5a383536] POST /api/auth/logout → 200 (0ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:22.856 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [2bab05b001c2] POST /api/auth/login 200 67ms
+2026-05-07 17:01:22.856 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [2bab05b001c2] POST /api/auth/login → 200 (67ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:22.899 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [83111d88949e] GET /api/system/menu/user-tree 200 13ms
+2026-05-07 17:01:22.899 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [83111d88949e] GET /api/system/menu/user-tree → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:31.814 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [12a18c17a2b7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 15ms
+2026-05-07 17:01:31.814 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [12a18c17a2b7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (15ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:42.242 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [9ddb74cde3fa] DELETE /api/system/user/11 200 22ms
+2026-05-07 17:01:42.242 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9ddb74cde3fa] DELETE /api/system/user/11 → 200 (22ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:42.263 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [d65eb01c2d8b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:01:42.263 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d65eb01c2d8b] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:44.874 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [6cc73547938c] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 6ms
+2026-05-07 17:01:44.874 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6cc73547938c] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:51.268 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [df623334b9eb] GET /api/system/menu/tree 200 5ms
+2026-05-07 17:01:51.268 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [df623334b9eb] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:01:51.298 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [f72354c40b96] GET /api/system/menu/tree 200 5ms
+2026-05-07 17:01:51.298 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f72354c40b96] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:29.127 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [dc0d772ee52c] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:02:29.127 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [dc0d772ee52c] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:29.557 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [7e7b552d6d7c] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:02:29.557 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [7e7b552d6d7c] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:29.990 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [650a029216df] GET /api/system/menu/tree 200 5ms
+2026-05-07 17:02:29.991 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [650a029216df] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:30.019 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [e7bf0aa67014] GET /api/system/menu/tree 200 5ms
+2026-05-07 17:02:30.019 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [e7bf0aa67014] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:30.365 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [4136acc08095] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 6ms
+2026-05-07 17:02:30.365 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4136acc08095] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:30.732 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [2189d8478a10] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 13ms
+2026-05-07 17:02:30.732 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [2189d8478a10] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (13ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:37.005 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [865874e17487] GET /api/system/role/page?page=1&pageSize=999 200 6ms
+2026-05-07 17:02:37.005 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [865874e17487] GET /api/system/role/page?page=1&pageSize=999 → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:50.676 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [4e08265b7b57] PUT /api/system/user 200 84ms
+2026-05-07 17:02:50.676 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4e08265b7b57] PUT /api/system/user → 200 (84ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:02:50.699 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [fc67f23f25c6] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 17:02:50.699 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [fc67f23f25c6] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:05:32.245 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [c6097c579bc5] GET /api/system/menu/user-tree 200 10ms
+2026-05-07 17:05:32.245 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c6097c579bc5] GET /api/system/menu/user-tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:05:32.246 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [ec3dfe49a0f4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 11ms
+2026-05-07 17:05:32.246 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ec3dfe49a0f4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:42.959 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [b0ccd8cd0934] GET /api/system/menu/user-tree 200 8ms
+2026-05-07 17:06:42.959 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b0ccd8cd0934] GET /api/system/menu/user-tree → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:42.961 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [89f18a5a677f] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 17:06:42.961 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [89f18a5a677f] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:52.238 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [9c40b5fe50a1] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 17:06:52.238 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9c40b5fe50a1] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:52.239 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [b287d0b8652a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:06:52.239 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b287d0b8652a] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:59.644 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [d1e3dc5f3a44] GET /api/system/menu/user-tree 200 6ms
+2026-05-07 17:06:59.644 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d1e3dc5f3a44] GET /api/system/menu/user-tree → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:06:59.646 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [6c6902d3e1b8] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 8ms
+2026-05-07 17:06:59.646 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6c6902d3e1b8] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:03.545 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [65443a1ce50c] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:07:03.545 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [65443a1ce50c] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:18.129 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [3168f31635fd] POST /api/auth/login 200 67ms
+2026-05-07 17:07:18.129 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3168f31635fd] POST /api/auth/login → 200 (67ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:18.230 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [3506651d52a8] GET /api/system/menu/user-tree 200 8ms
+2026-05-07 17:07:18.230 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3506651d52a8] GET /api/system/menu/user-tree → 200 (8ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:27.705 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [020f78006ac3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 11ms
+2026-05-07 17:07:27.705 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [020f78006ac3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:29.625 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [4f163b3a628d] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 5ms
+2026-05-07 17:07:29.625 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4f163b3a628d] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:30.754 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [500302e5ebf0] GET /api/system/menu/tree 200 4ms
+2026-05-07 17:07:30.754 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [500302e5ebf0] GET /api/system/menu/tree → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:30.775 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [ed6d46ca304d] GET /api/system/menu/tree 200 3ms
+2026-05-07 17:07:30.775 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ed6d46ca304d] GET /api/system/menu/tree → 200 (3ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:31.417 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [08f7e7d2f93f] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 5ms
+2026-05-07 17:07:31.417 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [08f7e7d2f93f] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:07:31.733 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [8425d1a9b3cc] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 9ms
+2026-05-07 17:07:31.733 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [8425d1a9b3cc] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:18.555 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [54361de287d1] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:10:18.556 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [54361de287d1] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:21.925 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [db52e98f20ce] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:10:21.925 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [db52e98f20ce] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:22.531 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [3197b6d82a59] GET /api/system/menu/tree 200 4ms
+2026-05-07 17:10:22.531 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3197b6d82a59] GET /api/system/menu/tree → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:22.565 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [32b1ecd90e69] GET /api/system/menu/tree 200 4ms
+2026-05-07 17:10:22.565 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [32b1ecd90e69] GET /api/system/menu/tree → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:23.237 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [6eea5fd9ab70] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:10:23.237 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [6eea5fd9ab70] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:23.959 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [79070457cfff] GET /api/system/menu/tree 200 5ms
+2026-05-07 17:10:23.959 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [79070457cfff] GET /api/system/menu/tree → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:23.991 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [90c6912ab3d1] GET /api/system/menu/tree 200 6ms
+2026-05-07 17:10:23.992 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [90c6912ab3d1] GET /api/system/menu/tree → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:25.696 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [98eac4487246] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:10:25.696 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [98eac4487246] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:26.113 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [56f308c5e8f3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 11ms
+2026-05-07 17:10:26.113 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [56f308c5e8f3] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:27.668 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [e66b3e2be5b4] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 7ms
+2026-05-07 17:10:27.668 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [e66b3e2be5b4] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:31.423 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [aff062b74ae1] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 16ms
+2026-05-07 17:10:31.423 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [aff062b74ae1] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (16ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:10:35.557 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [d680e27426aa] GET /api/system/role/page?page=1&pageSize=999 200 7ms
+2026-05-07 17:10:35.557 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d680e27426aa] GET /api/system/role/page?page=1&pageSize=999 → 200 (7ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:01.963 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [2f2efca18e3f] POST /api/auth/logout 200 1ms
+2026-05-07 17:11:01.963 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [2f2efca18e3f] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:04.981 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [ed57ea4fa6f5] POST /api/auth/login 200 66ms
+2026-05-07 17:11:04.981 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [ed57ea4fa6f5] POST /api/auth/login → 200 (66ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:05.038 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [c006641f9873] GET /api/system/menu/user-tree 200 11ms
+2026-05-07 17:11:05.038 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [c006641f9873] GET /api/system/menu/user-tree → 200 (11ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:12.978 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [69378ba9e99f] POST /api/auth/logout 200 1ms
+2026-05-07 17:11:12.978 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [69378ba9e99f] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:14.534 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [54d4043bc7fc] POST /api/auth/login 200 67ms
+2026-05-07 17:11:14.534 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [54d4043bc7fc] POST /api/auth/login → 200 (67ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:14.568 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [faf660b1a1ac] GET /api/system/menu/user-tree 200 9ms
+2026-05-07 17:11:14.568 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [faf660b1a1ac] GET /api/system/menu/user-tree → 200 (9ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:17.210 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [4f4b52d6f2a7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:11:17.210 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [4f4b52d6f2a7] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:19.606 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [be27e0273fd2] GET /api/system/role/page?page=1&pageSize=999 200 5ms
+2026-05-07 17:11:19.606 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [be27e0273fd2] GET /api/system/role/page?page=1&pageSize=999 → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:22.037 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [36b25603944f] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 6ms
+2026-05-07 17:11:22.037 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [36b25603944f] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:24.316 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [a90415f631c3] GET /api/system/menu/tree 200 3ms
+2026-05-07 17:11:24.316 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a90415f631c3] GET /api/system/menu/tree → 200 (3ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:24.325 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [f4f571f77682] GET /api/system/role/3 200 4ms
+2026-05-07 17:11:24.325 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f4f571f77682] GET /api/system/role/3 → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:39.682 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [0d7854e30376] POST /api/auth/logout 200 1ms
+2026-05-07 17:11:39.682 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [0d7854e30376] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:40.837 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [f18b666c1c7d] POST /api/auth/login 200 66ms
+2026-05-07 17:11:40.837 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [f18b666c1c7d] POST /api/auth/login → 200 (66ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:40.885 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [eb6dcfa4686f] GET /api/system/menu/user-tree 200 12ms
+2026-05-07 17:11:40.885 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [eb6dcfa4686f] GET /api/system/menu/user-tree → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:46.619 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [08f519aaca6f] POST /api/auth/logout 200 1ms
+2026-05-07 17:11:46.619 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [08f519aaca6f] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:48.637 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [dd50f3439250] POST /api/auth/login 200 66ms
+2026-05-07 17:11:48.637 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [dd50f3439250] POST /api/auth/login → 200 (66ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:48.672 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [65d349be244e] GET /api/system/menu/user-tree 200 6ms
+2026-05-07 17:11:48.672 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [65d349be244e] GET /api/system/menu/user-tree → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:54.970 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [aba9750793d7] POST /api/auth/logout 200 1ms
+2026-05-07 17:11:54.970 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [aba9750793d7] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:57.287 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [759d4b090881] POST /api/auth/login 200 67ms
+2026-05-07 17:11:57.287 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [759d4b090881] POST /api/auth/login → 200 (67ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:57.322 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [e2675b7e0bb5] GET /api/system/menu/user-tree 200 10ms
+2026-05-07 17:11:57.322 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [e2675b7e0bb5] GET /api/system/menu/user-tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:11:59.146 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [9509dd098fc4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 12ms
+2026-05-07 17:11:59.146 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [9509dd098fc4] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (12ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:01.214 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - [d6a2975f6c55] GET /api/system/role/page?page=1&pageSize=999 200 5ms
+2026-05-07 17:12:01.215 [http-nio-8080-exec-5] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [d6a2975f6c55] GET /api/system/role/page?page=1&pageSize=999 → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:24.925 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - [a067938012ab] GET /api/system/role/page?page=1&pageSize=20&roleName= 200 5ms
+2026-05-07 17:12:24.925 [http-nio-8080-exec-6] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [a067938012ab] GET /api/system/role/page?page=1&pageSize=20&roleName= → 200 (5ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:26.316 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - [b33f12c8ce8d] GET /api/system/menu/tree 200 3ms
+2026-05-07 17:12:26.316 [http-nio-8080-exec-7] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [b33f12c8ce8d] GET /api/system/menu/tree → 200 (3ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:26.325 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - [0b0c851584a7] GET /api/system/role/3 200 4ms
+2026-05-07 17:12:26.325 [http-nio-8080-exec-8] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [0b0c851584a7] GET /api/system/role/3 → 200 (4ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:43.370 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - [e81680ce58c1] POST /api/auth/logout 200 1ms
+2026-05-07 17:12:43.370 [http-nio-8080-exec-9] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [e81680ce58c1] POST /api/auth/logout → 200 (1ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:45.806 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - [18afe0c33320] POST /api/auth/login 200 67ms
+2026-05-07 17:12:45.806 [http-nio-8080-exec-10] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [18afe0c33320] POST /api/auth/login → 200 (67ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:12:45.842 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - [15b1701dbf2d] GET /api/system/menu/user-tree 200 10ms
+2026-05-07 17:12:45.842 [http-nio-8080-exec-2] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [15b1701dbf2d] GET /api/system/menu/user-tree → 200 (10ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:18:15.762 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - [3653329789bb] GET /api/system/menu/user-tree 200 15ms
+2026-05-07 17:18:15.762 [http-nio-8080-exec-3] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3653329789bb] GET /api/system/menu/user-tree → 200 (15ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:18:15.828 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - [17e760599e83] GET /api/system/menu/user-tree 200 6ms
+2026-05-07 17:18:15.828 [http-nio-8080-exec-1] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [17e760599e83] GET /api/system/menu/user-tree → 200 (6ms) IP: 0:0:0:0:0:0:0:1
+2026-05-07 17:18:15.832 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - [3c13cd757b54] GET /api/system/user/page?page=1&pageSize=20&username=&realName= 200 10ms
+2026-05-07 17:18:15.832 [http-nio-8080-exec-4] INFO  c.s.wms.filter.RequestLogFilter - 请求追踪 [3c13cd757b54] GET /api/system/user/page?page=1&pageSize=20&username=&realName= → 200 (10ms) IP: 0:0:0:0:0:0:0:1

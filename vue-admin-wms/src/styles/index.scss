@@ -1,0 +1,8 @@
+// 全局样式
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #app { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+a { text-decoration: none; }
+
+// 修复 ElMessageBox 弹窗位置错乱
+.el-overlay { position: fixed !important; }
+.el-overlay-dialog { display: flex; align-items: center; justify-content: center; }

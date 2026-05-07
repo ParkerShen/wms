@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: starlink-wms
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+# 日志级别
+logging:
+  level:
+    root: INFO
+    com.starlink: DEBUG
+    org.springframework.security: WARN
+    com.baomidou.mybatisplus: INFO
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.starlink.wms.**.entity
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      update-strategy: not_null
+  configuration:
+    map-underscore-to-camel-case: true
+    # 开发环境打印 SQL（prod 环境会被覆盖关闭）
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# JWT 配置
+jwt:
+  secret: St@rLinkWMS2024SecretKeyForJWTTokenMustBeAtLeast256BitsLong
+  expiration: 86400000  # 24小时，单位毫秒
+  header: Authorization
+  prefix: "Bearer "

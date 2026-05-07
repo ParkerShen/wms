@@ -1,0 +1,334 @@
+2026-05-07 16:15:10.918 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-05-07 16:15:10.950 [main] INFO  com.starlink.wms.WmsApplication - Starting WmsApplication using Java 17.0.16 with PID 12236 (C:\data\starlink-wms\backend\target\classes started by JFDN079 in C:\data\starlink-wms\backend)
+2026-05-07 16:15:10.951 [main] DEBUG com.starlink.wms.WmsApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-05-07 16:15:10.951 [main] INFO  com.starlink.wms.WmsApplication - The following 1 profile is active: "dev"
+2026-05-07 16:15:11.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-07 16:15:11.491 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-07 16:15:11.515 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-05-07 16:15:11.966 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-07 16:15:11.974 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:15:11.975 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-07 16:15:11.975 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-05-07 16:15:12.021 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-07 16:15:12.021 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1041 ms
+2026-05-07 16:15:12.072 [main] DEBUG c.s.w.filter.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-05-07 16:15:12.118 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2026-05-07 16:15:12.467 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2026-05-07 16:15:12.733 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f84e0c1f-1f0e-424e-8325-78c823a96962
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-07 16:15:13.292 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:15:13.304 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-05-07 16:15:13.312 [main] INFO  com.starlink.wms.WmsApplication - Started WmsApplication in 2.782 seconds (process running for 3.233)
+2026-05-07 16:15:20.911 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07 16:15:20.911 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-07 16:15:20.913 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-07 16:15:21.013 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:21.013 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:23.874 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:23.874 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:25.682 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:37.163 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:37.386 [http-nio-8080-exec-6] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 新增用户: parker
+2026-05-07 16:15:37.417 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:44.995 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:48.925 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:15:48.939 [http-nio-8080-exec-9] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 分配角色: userId=7, roleIds=[3]
+2026-05-07 16:15:48.966 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:16:16.530 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:16:17.826 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:16:17.866 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:16:19.046 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:16:19.525 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:18:40.078 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2026-05-07 16:18:40.084 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2026-05-07 16:18:43.861 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-05-07 16:18:43.893 [main] INFO  com.starlink.wms.WmsApplication - Starting WmsApplication using Java 17.0.16 with PID 21140 (C:\data\starlink-wms\backend\target\classes started by JFDN079 in C:\data\starlink-wms\backend)
+2026-05-07 16:18:43.894 [main] DEBUG com.starlink.wms.WmsApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-05-07 16:18:43.894 [main] INFO  com.starlink.wms.WmsApplication - The following 1 profile is active: "dev"
+2026-05-07 16:18:44.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-07 16:18:44.396 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-07 16:18:44.424 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2026-05-07 16:18:44.867 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-07 16:18:44.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:18:44.874 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-07 16:18:44.875 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-05-07 16:18:44.919 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-07 16:18:44.920 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
+2026-05-07 16:18:44.969 [main] DEBUG c.s.w.filter.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-05-07 16:18:45.016 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2026-05-07 16:18:45.364 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2026-05-07 16:18:45.623 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0f18b95f-68c8-4e40-9a54-d9a7d4ed9cea
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-07 16:18:46.155 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:18:46.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-05-07 16:18:46.174 [main] INFO  com.starlink.wms.WmsApplication - Started WmsApplication in 2.689 seconds (process running for 3.122)
+2026-05-07 16:18:58.620 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07 16:18:58.620 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-07 16:18:58.621 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-07 16:18:58.731 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:18:58.731 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:19:09.667 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:22:45.274 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:23:33.963 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:23:45.099 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:01.488 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2026-05-07 16:24:01.494 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2026-05-07 16:24:06.616 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-05-07 16:24:06.646 [main] INFO  com.starlink.wms.WmsApplication - Starting WmsApplication using Java 17.0.16 with PID 36504 (C:\data\starlink-wms\backend\target\classes started by JFDN079 in C:\data\starlink-wms\backend)
+2026-05-07 16:24:06.646 [main] DEBUG com.starlink.wms.WmsApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-05-07 16:24:06.647 [main] INFO  com.starlink.wms.WmsApplication - The following 1 profile is active: "dev"
+2026-05-07 16:24:07.120 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-07 16:24:07.122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-07 16:24:07.145 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2026-05-07 16:24:07.565 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-07 16:24:07.572 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:24:07.573 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-07 16:24:07.573 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-05-07 16:24:07.623 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-07 16:24:07.623 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 948 ms
+2026-05-07 16:24:07.671 [main] DEBUG c.s.w.filter.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-05-07 16:24:07.715 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2026-05-07 16:24:08.068 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2026-05-07 16:24:08.338 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 657497e7-a0f8-4221-9c94-9bb0e906227c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-05-07 16:24:08.875 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-07 16:24:08.887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2026-05-07 16:24:08.893 [main] INFO  com.starlink.wms.WmsApplication - Started WmsApplication in 2.629 seconds (process running for 3.047)
+2026-05-07 16:24:14.916 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07 16:24:14.917 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-07 16:24:14.918 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-07 16:24:15.062 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:15.062 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:19.954 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:25.444 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:28.314 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:30.740 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:30.754 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:33.051 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:33.067 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:36.991 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:24:50.524 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:25:07.949 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:25:08.174 [http-nio-8080-exec-1] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 新增用户: shen
+2026-05-07 16:25:08.204 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:25:35.427 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:25:38.137 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:25:38.167 [http-nio-8080-exec-5] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 更新用户: id=8
+2026-05-07 16:25:38.190 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:27:58.840 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:27:58.840 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:28:05.236 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:28:05.236 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:28:40.533 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:18.471 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:18.471 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:24.932 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:24.965 [http-nio-8080-exec-4] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 删除用户: id=8
+2026-05-07 16:29:24.977 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:27.904 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:41.776 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:41.784 [http-nio-8080-exec-8] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:42.839 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:42.846 [http-nio-8080-exec-7] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:43.255 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:43.261 [http-nio-8080-exec-10] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:43.422 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:43.430 [http-nio-8080-exec-9] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:43.719 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:43.727 [http-nio-8080-exec-2] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:46.991 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:46.997 [http-nio-8080-exec-3] WARN  c.s.w.c.e.GlobalExceptionHandler - 业务异常: 用户名已存在
+2026-05-07 16:29:58.240 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:29:59.088 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:03.020 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:03.597 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:05.325 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:11.650 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:18.312 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:31:18.388 [http-nio-8080-exec-10] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 新增用户: parker
+2026-05-07 16:31:18.414 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:32:45.835 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:32:46.359 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:34:10.260 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:34:10.260 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:38:49.448 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:38:51.674 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:38:51.674 [http-nio-8080-exec-6] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 16:38:53.034 [http-nio-8080-exec-8] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 16:38:53.116 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 16:38:53.146 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:38:55.538 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:01.279 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:02.691 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:02.719 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:03.757 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:04.483 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:47.033 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:51.227 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:51.237 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:53.946 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:53.959 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:55.817 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:55.836 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:57.874 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:59.417 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:39:59.432 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:40:09.522 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:40:22.440 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:40:25.981 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:46:03.754 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:46:03.790 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:46:04.793 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:46:05.320 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:46:05.347 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:50:56.751 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:50:56.751 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:50:56.784 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:51:12.223 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:51:14.250 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:51:14.251 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 16:51:18.693 [http-nio-8080-exec-7] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 16:51:18.759 [http-nio-8080-exec-7] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 16:51:18.788 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:52:04.081 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:52:32.639 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:52:32.639 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:53:42.031 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:53:42.031 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:53:55.802 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:53:55.803 [http-nio-8080-exec-5] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 16:53:56.853 [http-nio-8080-exec-6] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 16:53:56.920 [http-nio-8080-exec-6] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 16:53:56.946 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:54:56.670 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:55:29.414 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:57:21.008 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:57:28.137 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:57:28.225 [http-nio-8080-exec-3] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 新增用户: parker
+2026-05-07 16:57:28.254 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:59:29.066 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 16:59:29.069 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:04.805 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:04.805 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:10.481 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:10.481 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:00:27.942 [http-nio-8080-exec-7] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:00:28.008 [http-nio-8080-exec-7] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:00:28.091 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:34.153 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:00:34.153 [http-nio-8080-exec-9] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:00:50.866 [http-nio-8080-exec-3] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:00:50.932 [http-nio-8080-exec-3] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:00:51.114 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:05.938 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:08.280 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:15.536 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:15.609 [http-nio-8080-exec-6] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 新增用户: shen
+2026-05-07 17:01:15.631 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:21.466 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:21.466 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:01:22.789 [http-nio-8080-exec-7] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:01:22.855 [http-nio-8080-exec-7] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:01:22.886 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:31.799 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:42.219 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:42.241 [http-nio-8080-exec-3] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 删除用户: id=11
+2026-05-07 17:01:42.251 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:44.867 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:51.263 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:01:51.292 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:29.114 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:29.550 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:29.984 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:30.014 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:30.358 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:30.718 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:36.998 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:50.591 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:02:50.669 [http-nio-8080-exec-4] INFO  c.s.w.m.a.s.impl.SysUserServiceImpl - 更新用户: id=10
+2026-05-07 17:02:50.689 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:05:32.234 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:05:32.234 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:42.951 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:42.951 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:52.227 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:52.227 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:59.638 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:06:59.638 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:03.537 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:18.063 [http-nio-8080-exec-1] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:07:18.129 [http-nio-8080-exec-1] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:07:18.222 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:27.694 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:29.620 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:30.750 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:30.772 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:31.412 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:07:31.723 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:18.543 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:21.918 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:22.526 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:22.561 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:23.229 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:23.954 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:23.984 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:25.689 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:26.101 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:27.661 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:31.407 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:10:35.549 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:01.962 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:01.962 [http-nio-8080-exec-1] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:11:04.915 [http-nio-8080-exec-5] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: parker
+2026-05-07 17:11:04.981 [http-nio-8080-exec-5] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 10, username: parker
+2026-05-07 17:11:05.026 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:11:12.977 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:11:12.977 [http-nio-8080-exec-7] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 10
+2026-05-07 17:11:14.468 [http-nio-8080-exec-8] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:11:14.533 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:11:14.559 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:17.198 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:19.601 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:22.030 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:24.312 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:24.321 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:39.681 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:39.682 [http-nio-8080-exec-5] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:11:40.771 [http-nio-8080-exec-6] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:11:40.837 [http-nio-8080-exec-6] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:11:40.872 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:46.618 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:46.618 [http-nio-8080-exec-8] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:11:48.571 [http-nio-8080-exec-9] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: parker
+2026-05-07 17:11:48.637 [http-nio-8080-exec-9] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 10, username: parker
+2026-05-07 17:11:48.665 [http-nio-8080-exec-10] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:11:54.969 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:11:54.970 [http-nio-8080-exec-2] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 10
+2026-05-07 17:11:57.221 [http-nio-8080-exec-3] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: admin
+2026-05-07 17:11:57.286 [http-nio-8080-exec-3] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 1, username: admin
+2026-05-07 17:11:57.311 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:11:59.134 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:01.209 [http-nio-8080-exec-5] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:24.920 [http-nio-8080-exec-6] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:26.313 [http-nio-8080-exec-7] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:26.321 [http-nio-8080-exec-8] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:43.369 [http-nio-8080-exec-9] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:12:43.369 [http-nio-8080-exec-9] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 用户登出 - userId: 1
+2026-05-07 17:12:45.740 [http-nio-8080-exec-10] INFO  c.s.w.m.a.controller.AuthController - 用户登录请求: parker
+2026-05-07 17:12:45.805 [http-nio-8080-exec-10] INFO  c.s.w.m.a.s.impl.AuthServiceImpl - 登录成功 - userId: 10, username: parker
+2026-05-07 17:12:45.832 [http-nio-8080-exec-2] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:18:15.746 [http-nio-8080-exec-3] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 10, username: parker
+2026-05-07 17:18:15.822 [http-nio-8080-exec-4] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
+2026-05-07 17:18:15.822 [http-nio-8080-exec-1] DEBUG c.s.w.filter.JwtAuthenticationFilter - JWT 认证成功 - userId: 1, username: admin
