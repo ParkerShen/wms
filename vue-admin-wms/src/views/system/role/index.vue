@@ -88,8 +88,18 @@
         node-key="id"
         :props="{ label: 'menuName', children: 'children' }"
         default-expand-all
-        :check-strictly="false"
-      />
+        :check-strictly="true"
+      >
+        <template #default="{ data }">
+          <span class="menu-node">
+            <span>{{ data.menuName }}</span>
+            <el-tag v-if="data.menuType === 'DIR'" size="small" type="info" class="menu-type-tag">目录</el-tag>
+            <el-tag v-else-if="data.menuType === 'MENU'" size="small" type="success" class="menu-type-tag">菜单</el-tag>
+            <el-tag v-else-if="data.menuType === 'BUTTON'" size="small" type="warning" class="menu-type-tag">按钮</el-tag>
+            <span v-if="data.permission" class="menu-perm">{{ data.permission }}</span>
+          </span>
+        </template>
+      </el-tree>
       <template #footer>
         <el-button @click="menuDialogVisible = false">取消</el-button>
         <el-button type="primary" @click="handleAssignMenu">确定</el-button>
@@ -106,7 +116,8 @@ import type { ElTree } from 'element-plus'
 import { getRolePageApi, createRoleApi, updateRoleApi, deleteRoleApi, getRoleByIdApi, assignRoleMenuApi } from '@/api/role'
 
 import { getMenuTreeApi } from '@/api/menu'
-import type { RoleItem, RolePageParams, RoleForm, MenuItem } from '@/api/role'
+import type { MenuItem } from '@/api/menu'
+import type { RoleItem, RolePageParams, RoleForm } from '@/api/role'
 
 const loading = ref(false)
 const tableData = ref<RoleItem[]>([])
@@ -197,4 +208,7 @@ onMounted(fetchData)
 <style scoped>
 .mb-16 { margin-bottom: 16px; }
 .pagination { margin-top: 16px; display: flex; justify-content: flex-end; }
+.menu-node { display: flex; align-items: center; gap: 6px; }
+.menu-type-tag { font-size: 10px; padding: 0 4px; min-height: 18px; line-height: 18px; }
+.menu-perm { font-size: 11px; color: #909399; }
 </style>

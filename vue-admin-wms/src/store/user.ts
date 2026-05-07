@@ -1,16 +1,31 @@
 import { defineStore } from 'pinia'
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import type { LoginData, UserInfo } from '@/api/auth'
 import { loginApi, logoutApi } from '@/api/auth'
 import type { MenuItem } from '@/api/menu'
-import { getMenuTreeApi as getAllMenuTree } from '@/api/menu'
 import request from '@/utils/request'
 import { resetRouter } from '@/router'
+
+/** 递归从菜单树中提取所有权限标识（含子菜单） */
+function extractPermissions(menus: MenuItem[]): string[] {
+  const perms: string[] = []
+  function walk(list: MenuItem[]) {
+    for (const m of list) {
+      if (m.permission) perms.push(m.permission)
+      if (m.children && m.children.length > 0) walk(m.children)
+    }
+  }
+  walk(menus)
+  return perms
+}
 
 export const useUserStore = defineStore('user', () => {
   const token = ref(localStorage.getItem('token') || '')
   const userInfo = ref<UserInfo | null>(getLocalUser())
   const menuTree = ref<MenuItem[]>([])
+
+  /** 从 menuTree 中提取的权限标识列表（用于 v-permission 指令） */
+  const permissions = computed(() => extractPermissions(menuTree.value))
 
   /** 从 localStorage 安全读取用户信息 */
   function getLocalUser(): UserInfo | null {
@@ -64,6 +79,7 @@ export const useUserStore = defineStore('user', () => {
     token,
     userInfo,
     menuTree,
+    permissions,
     login,
     fetchMenuTree,
     logout,

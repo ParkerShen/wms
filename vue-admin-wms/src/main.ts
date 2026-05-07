@@ -6,6 +6,7 @@ import router from './router'
 import 'element-plus/dist/index.css'
 import './styles/index.scss'
 import { ElNotification } from 'element-plus'
+import { setupGlobDirectives } from './directives'
 
 const app = createApp(App)
 
@@ -13,6 +14,9 @@ const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
 }
+
+// 注册全局指令（如 v-permission）
+setupGlobDirectives(app)
 
 app.use(createPinia())
 app.use(router)

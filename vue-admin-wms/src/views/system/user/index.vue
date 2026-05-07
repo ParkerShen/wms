@@ -25,7 +25,7 @@
     <!-- 表格 -->
     <el-card shadow="never">
       <div class="table-toolbar">
-        <el-button type="primary" @click="handleAdd">新增用户</el-button>
+        <el-button type="primary" @click="handleAdd" v-permission="'system:user:add'" >新增用户</el-button>
       </div>
 
       <el-table :data="tableData" v-loading="loading" stripe border style="width:100%">
@@ -44,9 +44,9 @@
         <el-table-column prop="createTime" label="创建时间" width="180" />
         <el-table-column label="操作" width="280" align="center" fixed="right">
           <template #default="{ row }">
-            <el-button type="primary" link size="small" @click="handleEdit(row)">编辑</el-button>
-            <el-button v-if="row.username !== 'admin'" type="primary" link size="small" @click="handleRole(row)">分配角色</el-button>
-            <el-button v-if="row.username !== 'admin'" type="danger" link size="small" @click="handleDelete(row)">删除</el-button>
+            <el-button type="primary" link size="small" @click="handleEdit(row)" v-permission="'system:user:edit'">编辑</el-button>
+            <el-button v-if="row.username !== 'admin'" type="primary" link size="small" @click="handleRole(row)" v-permission="'system:user:assignroles'">分配角色</el-button>
+            <el-button v-if="row.username !== 'admin'" type="danger" link size="small" @click="handleDelete(row)" v-permission="'system:user:delete'">删除</el-button>
           </template>
         </el-table-column>
       </el-table>
