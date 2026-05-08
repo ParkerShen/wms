@@ -61,6 +61,25 @@
           </el-breadcrumb>
         </div>
         <div class="header-right">
+          <!-- 仓库切换 -->
+          <div class="wh-selector" v-if="userStore.warehouseList.length > 0">
+            <el-icon :size="16" color="#909399"><OfficeBuilding /></el-icon>
+            <el-select
+              v-model="selectedWh"
+              value-key="id"
+              size="small"
+              style="width:200px"
+              @change="handleWhChange"
+            >
+              <el-option
+                v-for="wh in userStore.warehouseList"
+                :key="wh.id"
+                :label="wh.whCode + ' - ' + wh.whName"
+                :value="wh"
+              />
+            </el-select>
+          </div>
+
           <el-dropdown trigger="click">
             <span class="user-dropdown">
               <el-avatar :size="30" icon="UserFilled" />
@@ -86,18 +105,31 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useUserStore } from '@/store/user'
-import { Box, Odometer, Fold, Expand, SwitchButton } from '@element-plus/icons-vue'
+import { Box, Odometer, Fold, Expand, SwitchButton, OfficeBuilding } from '@element-plus/icons-vue'
 
 const route = useRoute()
 const userStore = useUserStore()
 const isCollapse = ref(false)
 
-onMounted(() => {
-  userStore.fetchMenuTree()
+// 仓库选择器双向绑定
+const selectedWh = ref(userStore.currentWarehouse || undefined)
+
+// 监听 store 仓库变化 -> 同步到本地变量
+watch(() => userStore.currentWarehouse, (val) => {
+  selectedWh.value = val || undefined
 })
+
+onMounted(async () => {
+  userStore.fetchMenuTree()
+  await userStore.fetchWarehouseList()
+})
+
+function handleWhChange(wh: any) {
+  userStore.setCurrentWarehouse(wh)
+}
 
 function handleLogout() {
   userStore.logout()
@@ -128,6 +160,8 @@ function handleLogout() {
   .collapse-btn { font-size: 20px; cursor: pointer; color: #606266; }
 
   .header-right {
+    display: flex; align-items: center; gap: 16px;
+    .wh-selector { display: flex; align-items: center; gap: 6px; }
     .user-dropdown {
       display: flex; align-items: center; gap: 8px; cursor: pointer;
       .username { font-size: 14px; color: #303133; }

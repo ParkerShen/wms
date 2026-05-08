@@ -3,86 +3,79 @@ import { ref, computed } from 'vue'
 import type { LoginData, UserInfo } from '@/api/auth'
 import { loginApi, logoutApi } from '@/api/auth'
 import type { MenuItem } from '@/api/menu'
+import { getWarehouseSelectApi } from '@/api/warehouse'
+import type { WarehouseSelectItem } from '@/api/warehouse'
 import request from '@/utils/request'
 import { resetRouter } from '@/router'
 
-/** 递归从菜单树中提取所有权限标识（含子菜单） */
 function extractPermissions(menus: MenuItem[]): string[] {
   const perms: string[] = []
   function walk(list: MenuItem[]) {
-    for (const m of list) {
-      if (m.permission) perms.push(m.permission)
-      if (m.children && m.children.length > 0) walk(m.children)
-    }
-  }
-  walk(menus)
-  return perms
+    for (const m of list) { if (m.permission) perms.push(m.permission); if (m.children?.length) walk(m.children) }
+  }; walk(menus); return perms
 }
 
 export const useUserStore = defineStore('user', () => {
   const token = ref(localStorage.getItem('token') || '')
   const userInfo = ref<UserInfo | null>(getLocalUser())
   const menuTree = ref<MenuItem[]>([])
-
-  /** 从 menuTree 中提取的权限标识列表（用于 v-permission 指令） */
   const permissions = computed(() => extractPermissions(menuTree.value))
 
-  /** 从 localStorage 安全读取用户信息 */
+  // 仓库切换
+  const warehouseList = ref<WarehouseSelectItem[]>([])
+  const currentWarehouse = ref<WarehouseSelectItem | null>(getLocalWarehouse())
+
   function getLocalUser(): UserInfo | null {
-    try {
-      const raw = localStorage.getItem('userInfo')
-      return raw ? JSON.parse(raw) : null
-    } catch {
-      localStorage.removeItem('userInfo')
-      return null
-    }
+    try { const raw = localStorage.getItem('userInfo'); return raw ? JSON.parse(raw) : null }
+    catch { localStorage.removeItem('userInfo'); return null }
   }
 
-  /** 登录 */
+  function getLocalWarehouse(): WarehouseSelectItem | null {
+    try { const raw = localStorage.getItem('currentWarehouse'); return raw ? JSON.parse(raw) : null }
+    catch { localStorage.removeItem('currentWarehouse'); return null }
+  }
+
   async function login(loginData: LoginData) {
     const result = await loginApi(loginData)
-    token.value = result.token
-    userInfo.value = result.user
-    localStorage.setItem('token', result.token)
-    localStorage.setItem('userInfo', JSON.stringify(result.user))
+    token.value = result.token; userInfo.value = result.user
+    localStorage.setItem('token', result.token); localStorage.setItem('userInfo', JSON.stringify(result.user))
   }
 
-  /** 获取当前用户的菜单树 */
   async function fetchMenuTree() {
-    try {
-      const res = await request.get<any, any>('/system/menu/user-tree')
-      menuTree.value = res as any
-    } catch {
-      menuTree.value = []
-    }
+    try { const res = await request.get<any, any>('/system/menu/user-tree'); menuTree.value = res as any }
+    catch { menuTree.value = [] }
   }
 
-  /** 登出 */
-  async function logout() {
+  /** 加载仓库列表并设置默认仓库 */
+  async function fetchWarehouseList() {
     try {
-      await logoutApi()
-    } catch {
-      // ignore
-    }
-    token.value = ''
-    userInfo.value = null
-    menuTree.value = []
-    localStorage.removeItem('token')
-    localStorage.removeItem('userInfo')
+      warehouseList.value = await getWarehouseSelectApi()
+      // 如果还没有选中仓库，自动选第一个
+      if (!currentWarehouse.value && warehouseList.value.length > 0) {
+        setCurrentWarehouse(warehouseList.value[0])
+      }
+    } catch { warehouseList.value = [] }
+  }
+
+  /** 切换仓库 */
+  function setCurrentWarehouse(wh: WarehouseSelectItem) {
+    currentWarehouse.value = wh
+    localStorage.setItem('currentWarehouse', JSON.stringify(wh))
+  }
+
+  async function logout() {
+    try { await logoutApi() } catch { }
+    token.value = ''; userInfo.value = null; menuTree.value = []
+    currentWarehouse.value = null; warehouseList.value = []
+    localStorage.removeItem('token'); localStorage.removeItem('userInfo'); localStorage.removeItem('currentWarehouse')
     resetRouter()
   }
 
-  /** 是否已登录 */
   const isLogin = () => !!token.value
 
   return {
-    token,
-    userInfo,
-    menuTree,
-    permissions,
-    login,
-    fetchMenuTree,
-    logout,
-    isLogin,
+    token, userInfo, menuTree, permissions,
+    warehouseList, currentWarehouse,
+    login, fetchMenuTree, fetchWarehouseList, setCurrentWarehouse, logout, isLogin,
   }
 })

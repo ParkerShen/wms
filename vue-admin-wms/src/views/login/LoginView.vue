@@ -80,8 +80,9 @@ async function handleLogin() {
   loading.value = true
   try {
     await userStore.login(form)
-    // 登录成功后立即加载菜单树，确保进入主页时菜单已就绪
+    // 登录成功后加载菜单树和仓库列表
     await userStore.fetchMenuTree()
+    await userStore.fetchWarehouseList()
     ElMessage.success('登录成功')
     const redirect = (route.query.redirect as string) || '/dashboard'
     router.push(redirect)
